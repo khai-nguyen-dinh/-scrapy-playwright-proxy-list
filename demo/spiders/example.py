@@ -2,9 +2,8 @@ import random
 from urllib.parse import urlparse
 
 import scrapy
-from scrapy_playwright.page import PageMethod
 
-from demo.demo.settings import PLAYWRIGHT_PROXY_SERVERS
+from demo.settings import PLAYWRIGHT_PROXY_SERVERS
 
 
 class ExampleSpider(scrapy.Spider):
